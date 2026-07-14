@@ -28,7 +28,6 @@ The application allows users to:
 - Logistic Regression Model
 - Random Forest Model
 - Model Evaluation
-- SHAP-based / Rule-based Explainability
 - Exported Scikit-Learn Pipeline
 
 ### AI Agent
@@ -149,8 +148,7 @@ customer-retention-ai/
 6. Logistic Regression
 7. Random Forest
 8. Model Evaluation
-9. Explainability
-10. Export Model
+9. Export Model
 
 ---
 
