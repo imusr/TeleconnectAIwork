@@ -1,0 +1,79 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 500px; */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+pre{
+  text-align: left;
+  font-size: 1rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+
+/* Latest */
+
+
+.hero-badge {
+  background: rgba(58,123,213,0.25);
+  border: 1px solid rgba(58,123,213,0.5);
+  color: #7ab8f5 !important;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 0.9rem;
+  display: inline-block;
+}
+
+
+#trip_plan{
+    background-color: coral;
+    color: #000;
+    padding: 10px;
+    font-family: monospace;
+}

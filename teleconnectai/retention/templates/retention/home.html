@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teleconnect</title>
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="{% static 'aiplanner/css/style.css' %}">
+</head>
+<body>
+  <div class="hero-badge">TeleConnect</div>
+  <pre style="text-align: center; font-size: 20px; margin: 5px 0;">Customer Retention AI</pre>
+  <form method="post" action="{% url 'chat_api' %}">
+    {% csrf_token %}
+    {{form.chat_message}}
+    <button type="submit">Send</button>
+  </form>
+  <br><br>
+  <!-- <hr> -->
+
+  <pre style="text-decoration: underline;">Request:</pre>
+  <pre>{{ ai_recipe.user_message }}</pre>
+  <br>
+
+  {% if ai_recipe.user_message %}
+  <div id="trip_plan">
+    <!-- <pre style="text-decoration: underline;">Customer details:</pre> -->
+    <pre>{{ ai_recipe.ai_res }}</pre>
+    <br>
+  </div>
+
+
+  {% endif %}
+
+
+
+
+</body>
+</html>
