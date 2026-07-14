@@ -1,0 +1,10 @@
+Column,Invalid Rows,Minimum Allowed,Maximum Allowed
+age,21,18,100.0
+tenure_months,5,0,120.0
+monthly_charges,6,0,500.0
+total_charges,0,0,
+avg_monthly_gb_used,11,0,
+avg_monthly_minutes,0,0,
+num_support_tickets,10,0,50.0
+satisfaction_score,3455,1,5.0
+num_additional_services,0,0,5.0
