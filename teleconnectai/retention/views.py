@@ -73,3 +73,34 @@ def get_customer_repo(request):
     """
     # return JsonResponse({"response": response})
     return HttpResponse(html_content)
+
+
+def get_questions(request):
+    lst = ["Analyze customer CUST1002", "Why is customer CUST1002 high risk?", "Recommend a retention strategy for CUST1005.", "Summarize customer CUST1003.", "Predict churn for customer CUST9999."]
+    response = "<br><br>".join(lst)
+    html_content = f"""
+    <html>
+        <head>
+            <title>Customer Repository JSON Viewer</title>
+            <style>
+                body {{
+                    padding: 20px; 
+                    font-family: monospace; 
+                }}
+                pre {{
+                    white-space: pre-wrap;       /* Tells browser to wrap text */
+                    white-space: -moz-pre-wrap;  /* Fix for older Firefox versions */
+                    white-space: -webkit-pre-wrap; /* Fix for Safari and Chrome */
+                    word-wrap: break-word;       /* Breaks long words or values if needed */
+                }}
+            </style>
+        </head>
+        <body>
+            <h3>Sample Question</h3>
+            <pre>{response}</pre>
+        </body>
+    </html>
+    """
+    # return JsonResponse({"response": response})
+    return HttpResponse(html_content)
+
