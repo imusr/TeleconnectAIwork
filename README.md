@@ -272,6 +272,22 @@ http://127.0.0.1:8000/
 
 ---
 
+# Example Question
+
+```
+Analyze customer CUST1002
+
+Why is customer CUST1002 high risk?
+
+Recommend a retention strategy for CUST1005.
+
+Summarize customer CUST1003.
+
+Predict churn for customer CUST9999.
+```
+
+---
+
 # Example Response
 
 ```
@@ -332,12 +348,12 @@ The best-performing model (Logistic Regression) was exported as a Scikit-Learn p
 
 # Author
 
-**Your Name**
+**SHUBHAM KUMAR**
 
 Python Full Stack & AI Developer
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/imusr
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/shubham-kumar-bb4b3a175/
 
 ---
